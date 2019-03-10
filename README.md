@@ -72,3 +72,15 @@ tailwind({
   function: "tw"
 });
 ```
+
+### `only`
+
+- Type: `Array<String>` _(default: [])_
+
+Array of minimatch strings to only include certain files
+
+```ts
+tailwind({
+  only: ["*.js"]
+});
+```

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transform tailwind focus selectors 1`] = `
+"const css = {\\":focus\\":{\\"backgroundColor\\":\\"#38c172\\"}};
+"
+`;
+
+exports[`transform tailwind hover selectors 1`] = `
+"const css = {\\":hover\\":{\\"backgroundColor\\":\\"#38c172\\"}};
+"
+`;
+
+exports[`transform tailwind media selectors 1`] = `
+"const css = {\\"@media (min-width: 576px)\\":{\\"color\\":\\"#38c172\\"},\\"@media (min-width: 768px)\\":{\\"fontSize\\":\\"1.5rem\\"},\\"@media (min-width: 992px)\\":{\\"textTransform\\":\\"capitalize\\"}};
+"
+`;
+
+exports[`transform tailwind normal selectors 1`] = `
+"const css = {\\"color\\":\\"#fff\\",\\"fontWeight\\":\\"500\\",\\"fontSize\\":\\"1.5rem\\",\\"display\\":\\"flex\\",\\"textTransform\\":\\"capitalize\\"};
+"
+`;
